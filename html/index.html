@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Flappy Bird – Tabulka Skóre</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navigace -->
+  <nav class="navbar">
+    <div class="logo">Flappy Bird</div>
+    <div class="burger" id="burger">&#9776;</div>
+  </nav>
+
+  <!-- Skóre -->
+  <div class="scoreboard">
+    <h1>Tabulka Skóre – Flappy Bird</h1>
+    <table>
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>Hráč</th>
+          <th>Skóre</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="rank">1</td>
+          <td>Jirka</td>
+          <td>97</td>
+        </tr>
+        <tr>
+          <td class="rank">2</td>
+          <td>Lukáš</td>
+          <td>85</td>
+        </tr>
+        <tr>
+          <td class="rank">3</td>
+          <td>Tomáš</td>
+          <td>72</td>
+        </tr>
+        <tr>
+          <td class="rank">4</td>
+          <td>Radek</td>
+          <td>66</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <script>
+    const burger = document.getElementById("burger");
+
+    burger.addEventListener("click", () => {
+      alert("Burger menu bude brzy přidáno!");
+    });
+  </script>
+
+</body>
+</html>
